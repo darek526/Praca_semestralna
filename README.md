@@ -10,7 +10,7 @@ Przy włączeniu ostrzeżeń (opcja -Wall lub -Wformat w GCC) kompilator powinie
 
 Rozpatrzmy teraz trochę bardziej skomplikowany przykład. Otóż, ponownie jak poprzednio nasz program będzie wypisywał trzecią potęgę podanej liczby, ale tym razem musi ignorować błędne dane (tzn. pomijać ciągi znaków, które nie są liczbami) i kończyć działanie tylko w momencie, gdy nastąpi błąd odczytu lub koniec pliku[3].
 
- >#include <stdio.h>
+  #include <stdio.h>
   int main(void)
  {
    int result, n;
